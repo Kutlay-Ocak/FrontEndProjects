@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    scale: 0.9;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.netflix-logo{
+    margin-top: 30px;
+    margin-left: 200px;
+    scale: 2;
+}
+
+
+.title{
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+.card{
+    margin: -100px -80px;
+    scale: 0.5;
+    cursor: pointer;
+}
+
+
+.cards{
+    display: flex;
+}
+
+
+
+.profil-foto{
+    border: 1px;
+    border-radius: 5px;
+}
+
+.profil-name{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+button{
+    border: 2px;
+    border-radius: 2px;
+    background-color: #808080;
+    color: white;
+    font-size: 20px;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    cursor: pointer;
+    padding: 10px 150px;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

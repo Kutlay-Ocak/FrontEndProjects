@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: 120%;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 10%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%), url("foto/arkaplan.jpg");
+    height: 680px;
+    width: 100%;
+}
+
+.header-png{
+    float: left;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+}
+
+.txt-nav{
+    margin: 13.5px;
+}
+
+.navbar {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  overflow: auto;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.txt-head{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.button{
+    width: 180px;
+    height: 50px;
+    background-color: grey;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.buton{
+    width: 180px;
+    height: 50px;
+    background-color: grey;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.buton a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-icerik{
+    background-color: #222;
+}
+
+.main-txt{
+    color: white;
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 5px;
+    
+}
+.main-film{
+    width: 100%;
+    height: 50%;
+    float: left;
+    scale: 0.8;
+    display: flex;
+}
+
+img{
+    justify-content: space-between;
+}
+h1{
+    margin-left: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*        FOOTER ALANI           */
+.ft-main{
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+}
+
+.ft-cls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-txt{
+    color: gray;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: gray;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.link:hover{
+    color: red;
+}
+
+.ft-link{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.wrld-img{
+    scale: 1;
+    margin-right: 5px;
+}
+
+#language {
+    border: 2px solid gray;
+    border-radius: 2px;
+    background: none;
+    color: white;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 15px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 20px;
+    align-items: center;
+    
+}
+
+#language::after {
+    content: ' ▼';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: white;
+}
+
+#language:focus {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-left: 5px;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.ft-end{
+    color: gray;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
